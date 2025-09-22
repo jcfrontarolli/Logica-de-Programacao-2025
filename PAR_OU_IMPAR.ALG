@@ -15,8 +15,8 @@ Inicio
    // O operador "mod" (módulo) retorna o resto de uma divisão.
    // Se o resto da divisão por 2 for 0, o número é par.
    Se (numero mod 2 = 0) Entao
-      EscrevaL("O numero ", numero, " e par.")
+      EscrevaL("O numero ", numero, " é par.")
    Senao
-      EscrevaL("O numero ", numero, " e impar.")
+      EscrevaL("O numero ", numero, " é impar.")
    FimSe
 FimAlgoritmo
