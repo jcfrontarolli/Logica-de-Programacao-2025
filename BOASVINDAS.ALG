@@ -8,7 +8,6 @@ Algoritmo "BoasVindas"
 Var
 nome: caracter
 
-
 Inicio
 // solicita o nome da pessoa
 Escreva("Digite seu nome: ")
