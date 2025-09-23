@@ -2,26 +2,26 @@ Algoritmo "Maior_Numero"
 // Programa para ler dois numeros e descobrir qual e o maior
 
 Var
-   numero1, numero2: inteiro
+   numero_um, numero_dois: inteiro
 
 Inicio
    // Solicita e le o primeiro numero
    Escreva("Digite o primeiro numero: ")
-   Leia(numero1)
+   Leia(numero_um)
 
    // Solicita e le o segundo numero
    Escreva("Digite o segundo numero: ")
-   Leia(numero2)
+   Leia(numero_dois)
 
    // Compara os dois numeros
-   Se (numero1 > numero2) Entao
-      EscrevaL("O maior numero e: ", numero1)
+   Se (numero_um > numero_dois) Entao
+      EscrevaL("O maior numero é: ", numero_um)
    Senao
-      // Se nao for o numero1, pode ser o numero2 ou eles sao iguais
-      Se (numero2 > numero1) Entao
-         EscrevaL("O maior numero e: ", numero2)
+      // Se nao for o numero_um, pode ser o numero_dois ou eles são iguais
+      Se (numero_dois > numero_um) Entao
+         EscrevaL("O maior numero é: ", numero_dois)
       Senao
-         EscrevaL("Os numeros sao iguais.")
+         EscrevaL("Os numeros são iguais.")
       FimSe
    FimSe
 
